@@ -19,8 +19,7 @@ cask "whereinmenu" do
   # the built-in updater — reinstalling an older pinned build over a
   # self-updated app, or reporting permanent version drift.
   auto_updates true
-
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "WhereInMenu.app"
 

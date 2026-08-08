@@ -5,14 +5,29 @@ Homebrew casks for [Data Consulting Services](https://dataconsultingservices.net
 ## Usage
 
 ```bash
-brew tap cyrus109/apps
+brew tap data-consulting-services/apps
 brew install --cask whereinmenu
 ```
 
 Or in one line, without tapping first:
 
 ```bash
-brew install --cask cyrus109/apps/whereinmenu
+brew install --cask data-consulting-services/apps/whereinmenu
+```
+
+### Already installed WhereInMenu manually?
+
+Homebrew refuses to install over an app it does not manage:
+
+```
+Error: It seems there is already an App at '/Applications/WhereInMenu.app'.
+```
+
+Use `--adopt` to hand the existing install over to Homebrew instead of
+reinstalling it. Your Accessibility permission and settings are preserved:
+
+```bash
+brew install --cask --adopt whereinmenu
 ```
 
 ## Available casks
