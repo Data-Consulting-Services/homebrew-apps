@@ -6,13 +6,27 @@ Homebrew casks for [Data Consulting Services](https://dataconsultingservices.net
 
 ```bash
 brew tap data-consulting-services/apps
+brew trust data-consulting-services/apps
 brew install --cask whereinmenu
 ```
 
-Or in one line, without tapping first:
+### Why the `brew trust` step?
+
+Homebrew 6.0 refuses to load casks from third-party taps until you explicitly
+trust them:
+
+```
+Error: Refusing to load cask data-consulting-services/apps/whereinmenu
+from untrusted tap data-consulting-services/apps.
+```
+
+This is a Homebrew-wide safeguard, not something specific to this tap — a tap
+can run arbitrary Ruby during install, so Homebrew wants you to opt in once per
+tap. See [Tap Trust](https://docs.brew.sh/Tap-Trust). To trust only this one
+cask instead of the whole tap:
 
 ```bash
-brew install --cask data-consulting-services/apps/whereinmenu
+brew trust --cask data-consulting-services/apps/whereinmenu
 ```
 
 ### Already installed WhereInMenu manually?
