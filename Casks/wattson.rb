@@ -1,6 +1,6 @@
 cask "wattson" do
-  version "0.1.1"
-  sha256 "19a276839ba95d55d1e7c9491f6eed6a74093ab1fdd3f7f4a63fd0fe36027f69"
+  version "0.1.2"
+  sha256 "665f56fb62d030891f268a3605900d9be16124b7981bdb4ca066a440481120cb"
 
   url "https://dataconsultingservices.net/downloads/Wattson-#{version}.dmg"
   name "Wattson"
