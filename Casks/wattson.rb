@@ -15,7 +15,7 @@ cask "wattson" do
   end
 
   # No in-app updater in v1 — Homebrew owns updates (brew upgrade wattson).
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Wattson.app"
 
