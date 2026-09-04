@@ -1,6 +1,6 @@
 cask "whereinmenu" do
-  version "1.3.0"
-  sha256 "800fd3be4ac3b7ce68843f72abba8234ad402f284af759e97ae1937f0e8d46dd"
+  version "1.3.1"
+  sha256 "a371ee6169e4d017e63d3b59fdf44745cc4970c292d3e221b5535c8b1c37ee9f"
 
   url "https://dataconsultingservices.net/downloads/WhereInMenu-#{version}.dmg"
   name "WhereInMenu"
