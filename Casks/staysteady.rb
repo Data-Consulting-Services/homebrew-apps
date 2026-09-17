@@ -1,6 +1,6 @@
 cask "staysteady" do
-  version "1.6.3"
-  sha256 "fe0282cdb2a7065036d5b88bd64a58a6cc774729cd818c85c0e60ce9c05a95d1"
+  version "1.6.4"
+  sha256 "20134bed268caa96322d4fac3e04bdee14734d6562569362415ce21834d55684"
 
   url "https://dataconsultingservices.net/downloads/StaySteady-#{version}.dmg"
   name "Stay Steady"
