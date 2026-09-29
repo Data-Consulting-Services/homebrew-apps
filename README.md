@@ -49,7 +49,7 @@ brew install --cask --adopt whereinmenu
 | Cask | Description | Homepage |
 |---|---|---|
 | `whereinmenu` | Menu bar search for any menu item in the active app | [whereinmenu](https://dataconsultingservices.net/apps/whereinmenu/) |
-| `staysteady` | Free budgeting app — import bank statements, categorise on device, track savings (macOS 26) | [staysteady](https://dataconsultingservices.net/apps/staysteady/) |
+| `staysteady` | Retired: from 2.0 on the [Mac App Store](https://apps.apple.com/be/app/stay-steady-track-spending/id6761267044?platform=mac) only; the cask is disabled | [staysteady](https://dataconsultingservices.net/apps/staysteady/) |
 
 ## Updates
 

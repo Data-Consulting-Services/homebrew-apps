@@ -7,14 +7,9 @@ cask "staysteady" do
   desc "Free budgeting app: import bank statements, categorise on device, track savings"
   homepage "https://dataconsultingservices.net/apps/staysteady/"
 
-  livecheck do
-    url "https://dataconsultingservices.net/apps/staysteady/latest.json"
-    strategy :json do |json|
-      json["version"]
-    end
-  end
+  # From 2.0 Stay Steady ships only through the Mac App Store; the DMG this url names is gone.
+  disable! date: "2026-09-30", because: "is now distributed only through the Mac App Store: https://apps.apple.com/be/app/stay-steady-track-spending/id6761267044?platform=mac"
 
-  # No in-app updater — Homebrew owns updates (brew upgrade staysteady).
   depends_on macos: :tahoe
 
   app "Stay Steady.app"
